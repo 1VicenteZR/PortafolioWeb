@@ -1,20 +1,16 @@
-# 🌐 Portafolio Web - Vicente 
+📄 Portafolio Web - Vicente 
 
----
+Este proyecto es un portafolio profesional desarrollado con HTML, CSS (Bootstrap 5) y JavaScript. Permite mostrar la experiencia, formación académica, proyectos y datos de contacto.
+🧾 a. Portada
 
-## 🛠 Tecnologías utilizadas
+Nombre del trabajo: Portafolio Web - Vicente de Jesús Zenón Regalado
 
-* HTML5
-* CSS3 (con Bootstrap 5)
-* JavaScript
-* Bootstrap Icons
-* Google Fonts (Plus Jakarta Sans)
+Breve descripción: Sitio web que presenta información académica y profesional con un diseño responsivo y moderno. Incluye currículum, proyectos, educación y formulario de contacto.
 
----
+📘 b. Explicación documentación
 
-## 📂 Estructura del proyecto
+🔧 Estructura del proyecto:
 
-```
 📁 /assets               → Imágenes, íconos y recursos
 📁 /css/styles.css       → Estilos personalizados
 📁 /js/scripts.js        → Scripts y funcionalidades
@@ -23,119 +19,36 @@
 📄 projects.html         → Proyectos destacados
 📄 education.html        → Formación académica
 📄 contact.html          → Formulario de contacto
-```
 
----
+🧩 Métodos principales y funcionalidades:
 
-## 🧾 Descripción de las páginas
+index.html contiene introducción, presentación personal y enlaces a secciones clave.
 
-### 🔹 `index.html` - Página principal
+resume.html muestra experiencia en proyectos y habilidades técnicas como Java, HTML, CSS, JS, SQL.
 
-Muestra una introducción personal, redes sociales y llamada a la acción:
+projects.html presenta tres proyectos con imágenes y descripciones.
 
-```html
-<h1 class="display-3 fw-bolder mb-5">
-  <span class="text-gradient d-inline">llevar tu presencia digital al siguiente nivel</span>
-</h1>
-```
+education.html incluye la trayectoria académica desde el bachillerato hasta la universidad.
 
-Incluye sección "Sobre mí":
+contact.html tiene un formulario funcional usando Start Bootstrap Forms (API_TOKEN necesario).
 
-```html
-<p class="lead fw-light mb-4">
-  Mi nombre es Vicente de Jesús Zenón Regalado y soy estudiante de Ingeniería en Sistemas Computacionales.
-</p>
-```
+Ejemplo de fragmento del formulario:
 
----
-
-### 🔹 `resume.html` - Currículum
-
-Contiene secciones como experiencia académica y habilidades técnicas:
-
-```html
-<div class="small fw-bolder">Sistema de gestión de donadores</div>
-<div class="small text-muted">Proyecto académico</div>
-```
-
-**Habilidades destacadas:**
-
-* Diseño web responsivo
-* Bases de datos
-* Git
-* Java, HTML, CSS, JavaScript, C, SQL
-
----
-
-### 🔹 `projects.html` - Proyectos
-
-Ejemplos reales de proyectos realizados:
-
-```html
-<h2 class="fw-bolder">Sistema de gestión de donadores</h2>
-<p>Aplicación web desarrollada con HTML, CSS, JavaScript y PHP para registrar y gestionar información de donadores de sangre.</p>
-```
-
-Otros proyectos incluidos:
-
-* Sistema de tutorías escolares (Java Swing)
-* Sistema punto de venta (Java)
-
----
-
-### 🔹 `education.html` - Educación
-
-Historial académico con instituciones y fechas:
-
-```html
-<div class="text-secondary fw-bolder mb-2">2020 - Presente</div>
-<div class="small fw-bolder">Instituto Tecnológico de Oaxaca</div>
-```
-
----
-
-### 🔹 `contact.html` - Formulario de contacto
-
-Formulario funcional mediante integración con [Start Bootstrap Forms](https://startbootstrap.com/solution/contact-forms):
-
-```html
 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-  <!-- Campos: nombre, email, teléfono, mensaje -->
+  <input class="form-control" id="name" type="text" placeholder="Tu nombre completo..." />
 </form>
-```
 
-> ⚠️ **Nota:** Reemplaza `API_TOKEN` con tu token desde StartBootstrap para activar el formulario.
+🖼️ c. Capturas de pantalla
 
----
+Código ejecutándose en navegador:
 
-## 📦 Cómo usar
+![image](https://github.com/user-attachments/assets/75a2167d-96c1-4532-818f-329a235fb660)
+![image](https://github.com/user-attachments/assets/9789e9dc-5fc9-4b4c-8fa3-a8253235fe4c)
+![image](https://github.com/user-attachments/assets/055bbb98-fa5e-4518-b837-26f38765cbc6)
 
-1. Clona este repositorio:
 
-```bash
-git clone https://github.com/tu-usuario/portafolio-vicente.git
-cd portafolio-vicente
-```
+📬 Contacto
 
-2. Abre el archivo principal:
+Correo: vicenteregalado11@hotmail.com
 
-```bash
-start index.html
-```
-
-3. (Opcional) Publica en **GitHub Pages** desde la rama `main`.
-
----
-
-## 📸 Vista previa
-
-![image](https://github.com/user-attachments/assets/ab66e66c-d1b0-4398-952d-a67c546f6d86)
-
----
-
-## 📬 Contacto
-
-* **Correo:** [vicenteregalado11@hotmail.com](mailto:vicenteregalado11@hotmail.com)
-* **Instagram:** [@vicentevx7](https://www.instagram.com/vicentevx7)
-
----
+Instagram: @vicentevx7
